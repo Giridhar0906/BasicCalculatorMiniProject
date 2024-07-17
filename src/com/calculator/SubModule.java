@@ -44,7 +44,7 @@ public class SubModule extends Module {
 				module.evenOrOddNumber();
 				break;
 			default:
-				System.out.println("You Enter Wrong Input....");
+				System.out.println("You Enter Wrong Input please enter correct input....");
 			}
 			System.out.print("Do you want to continue? (y/n): ");
 			char userInput = sc.next().charAt(0);
@@ -52,7 +52,7 @@ public class SubModule extends Module {
 				break;
 			}
 		}
-		System.out.println("Thank you !!!!!!!!!");
+		System.out.println("Manapasun Aabhar Aaple....(Thank You...)");
 		sc.close();
 	}
 }
